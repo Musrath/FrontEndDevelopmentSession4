@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gradient</title>
+<style>	
+  div{
+	  margin-left: 250px;
+	  width: 150px;
+      height: 140px;
+      border-radius: 21px;
+	  margin-bottom: 25px;
+  }
+	div>p {
+	   padding: 53px 61px;
+	   font-size:20px;
+  }
+  .linear {
+    background: -webkit-linear-gradient(left,red, green); /* For Safari 5.1 to 6.0 */
+    background: linear-gradient(left,red, green); /* Standard syntax*/
+  }
+  .circle {
+    background: -webkit-radial-gradient(106% 112% at top,green, yellow, red); /* For Safari 5.1 to 6.0 */
+	background: radial-gradient(106% 112% at top,green, yellow, red); /* Standard syntax*/
+  }
+  .ellipse {
+    background: -webkit-radial-gradient(77% 151% at top,green, yellow, red); /* For Safari 5.1 to 6.0 */
+	background: radial-gradient(77% 151% at top,green, yellow, red); /* Standard syntax*/
+  }
+</style>
+</head>
+<body>
+<div>
+<div class="linear">
+<p>Box</p>
+</div>
+
+<div class="circle">
+<p>Box</p>
+</div>
+
+<div class="ellipse">
+<p>Box</p>
+</div>
+</div>
+</body>
+</html>
